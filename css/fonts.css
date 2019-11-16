@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "SemiBold";
+  src: url("../assets/fonts/WorkSans-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("../assets/fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
