@@ -115,7 +115,7 @@ button {
 }
 
 .wrapper-works_item {
-  min-width: 320px; 
+  min-width: 320px;
   height: 280px;
   background-color: #c3d0d8;
   margin-bottom: 30px;
@@ -253,7 +253,7 @@ input::-webkit-input-placeholder {
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
-} 
+}
 
 .logo-header {
   display: none;
@@ -266,9 +266,9 @@ input::-webkit-input-placeholder {
 @media screen and (min-width: 768px) {
   .wrapper-works {
     margin: 0 auto;
-    width: 770px; 
+    width: 770px;
     justify-content: space-between;
-}
+  }
 
   .menu__box__footer {
     display: flex;
@@ -276,11 +276,20 @@ input::-webkit-input-placeholder {
     justify-content: space-between;
     width: 555px;
     margin: 45px auto;
-}
+  }
 
-.image {
-  display: none;
-}
+  .image {
+    display: none;
+  }
+
+  .email,
+  .subject {
+    width: 80%;
+  }
+
+  .message {
+    min-width: 80%;
+  }
 }
 
 @media screen and (min-width: 1320px) {
@@ -290,122 +299,128 @@ input::-webkit-input-placeholder {
     margin-right: -130px;
   }
 
+  .wrapper-logo-menu {
+    position: relative;
+  }
+
   .logo-header {
     display: block;
+    position: absolute;
+    left: -160px;
   }
 
   .header {
-    min-width: 1320px;
+    width: 1170px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
     align-items: center;
     margin-top: 75px;
   }
 
-.header-contact-language {
-  margin: 0;
-}
+  .header-contact-language {
+    margin: 0;
+  }
 
-.menu__links {
-  margin: 0;
-  padding-right: 50px;
-}
+  .menu__links {
+    margin: 0;
+    padding-right: 50px;
+  }
 
-.main {
-  width: 1170px;
-  margin: 0 auto;
-}
+  .main {
+    width: 1170px;
+    margin: 0 auto;
+  }
 
-.section-about-us {
-  display: flex;
-  margin-top: 100px;
-  justify-content: space-between;
-}
+  .section-about-us {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+  }
 
-.wrapper-abaut-us {
-  margin-top: 155px;  
-  width: 555px;
-  
-}
+  .wrapper-abaut-us {
+    margin-top: 155px;
+    width: 555px;
+  }
 
-.section-about-us-title { 
-  font-size: 74px; 
-  text-align: start;
-}
+  .section-about-us-title {
+    font-size: 74px;
+    text-align: start;
+  }
 
-.section-about-us-description {
-  margin-top: 45px;
-  text-align: start;
-}
+  .section-about-us-description {
+    margin-top: 45px;
+    text-align: start;
+  }
 
-.wrapper-buttons {
-  display: flex; 
-  margin-top: 45px;
-}
+  .wrapper-buttons {
+    display: flex;
+    margin-top: 45px;
+  }
 
-.btn-section-about-us {
-  margin: 0;
-  margin-left: 10px;
-}
+  .btn-section-about-us {
+    margin: 0;
+    margin-left: 10px;
+  }
 
-.section-crearive-works {
-  margin-top: 342px;
-}
+  .section-crearive-works {
+    margin-top: 188px;
+  }
 
-.section-crearive-works-title {  
-  font-size: 48px;
-  text-align: start;
-  width: 335px;
-  margin-bottom: 90px;
-}
+  .section-crearive-works-title {
+    font-size: 48px;
+    text-align: start;
+    width: 335px;
+    margin-bottom: 90px;
+  }
 
-.wrapper-works {
-  width: 1170px; 
-  justify-content: space-between
-}
+  .wrapper-works {
+    width: 1170px;
+    justify-content: space-between;
+  }
 
-.wrapper-works_item {  
-  width: 370px;
-  margin-right: 0;  
-}
+  .wrapper-works_item {
+    width: 370px;
+    margin-right: 0;
+  }
 
-.see-more {
-  margin-top: 35px;
-}
+  .see-more {
+    margin-top: 35px;
+  }
 
-.get-in-touch {
-  margin-top: 300px;
-}
+  .get-in-touch {
+    margin-top: 300px;
+  }
 
-.get-in-touch-title {
-  text-align: start;
-}
+  .get-in-touch-title {
+    text-align: start;
+  }
 
-.get-in-touch-subtitle {
-  font-size: 48px;
-  text-align: start;
-  margin-top: 30px;
-}
+  .get-in-touch-subtitle {
+    font-size: 48px;
+    text-align: start;
+    margin-top: 30px;
+  }
 
-.wrapper-input {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 60px;
-}
+  .wrapper-input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
 
-.email, .subject {
-  min-width: 570px;
-  margin: 0;  
-}
+  .email,
+  .subject {
+    width: 570px;
+    margin: 0;
+  }
 
-.message {
-  min-width: 100%; 
-  margin: 0;
-  margin-top: 38px;
-}
+  .message {
+    min-width: 100%;
+    margin: 0;
+    margin-top: 38px;
+  }
 
-.btn__get-in-touch {
-  margin: 65px auto;
-}
+  .btn__get-in-touch {
+    margin: 65px auto;
+  }
 }
