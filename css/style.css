@@ -1,0 +1,258 @@
+body {
+  font-family: "SemiBold", Arial, sans-serif;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* ----------------------HEADER----------------------- */
+
+.header-contact-language {
+  margin: 50px auto;
+  width: 284px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-language {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  color: #314584;
+  cursor: pointer;
+}
+
+.header-language:after {
+  content: "";
+  border: 5px solid transparent;
+  border-top: 5px solid #314584;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.header-btn-contact-us {
+  width: 200px;
+  height: 60px;
+  -webkit-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+  font-family: "SemiBold", Arial, sans-serif;
+  color: #ff3946;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn-img {
+  margin-left: 14px;
+}
+
+/*------------------ MAIN -----------------------*/
+
+.section-about-us-title {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 50px;
+  color: #314584;
+  text-align: center;
+}
+
+.section-about-us-description {
+  font-family: "Regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+  text-align: center;
+  color: #6e757a;
+}
+
+.btn {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  background-color: #ff3946;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #314584;
+}
+
+.btn-section-about-us {
+  display: block;
+  margin: 20px auto;
+}
+
+.section-crearive-works-title {
+  margin-top: 100px;
+}
+
+.section-crearive-works-title {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #314584;
+  margin-bottom: 30px;
+}
+
+.wrapper-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper-works_item {
+  min-width: 320px;
+  /* width: 370px; */
+  height: 280px;
+  background-color: #c3d0d8;
+  margin-bottom: 30px;
+}
+
+.see-more {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ff5f68;
+}
+
+.get-in-touch {
+  margin-top: 20px;
+}
+
+.get-in-touch-title {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ff5f68;
+}
+
+.get-in-touch-subtitle {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  color: #314584;
+}
+
+input,
+textarea {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.email,
+.subject {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  display: block;
+  min-width: 320px;
+  height: 60px;
+  margin: 20px auto;
+  background-color: #f4fafe;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 30px;
+  color: #314584;
+}
+
+.message {
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  display: block;
+  min-width: 320px;
+  height: 120px;
+  margin: 20px auto;
+  background-color: #f4fafe;
+}
+
+.message::-webkit-input-placeholder {
+  padding-left: 30px;
+  padding-top: 20px;
+  color: #314584;
+}
+
+.btn__get-in-touch {
+  display: block;
+  margin: 20px auto;
+}
+
+/*------------------------- FOOTER ----------------------------*/
+
+.footer {
+  background-color: #314584;
+}
+
+.footer-title {
+  padding-top: 70px;
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.footer-Subtitle {
+  padding-top: 25px;
+  color: #ff3946;
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.menu__box__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "SemiBold", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.menu__box__footer li {
+  padding-top: 10px;
+}
+
+.menu__box__footer__item {
+  color: white;
+}
+
+.copyrigth {
+  font-family: "Regular", Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.fab {
+  color: white;
+  font-size: 30px;
+}
+
+.wrapper-icons {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  
+
+
+/* input::-webkit-input-placeholder {
+  
+} */
